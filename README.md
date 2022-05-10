@@ -1,13 +1,16 @@
 # Linux-NetSpeed
 ```
+搬瓦工在线库存查询
+https://bwg.ylx.me/
+
 预先准备
 centos：yum install ca-certificates wget -y && update-ca-trust force-enable
 debian/ubuntu：apt-get install ca-certificates wget -y && update-ca-certificates
 
 不卸载内核版本
-wget -O tcpx.sh "https://git.io/JYxKU" && chmod +x tcpx.sh && ./tcpx.sh
+wget -O tcpx.sh "https://github.com/ylx2016/Linux-NetSpeed/raw/master/tcpx.sh" && chmod +x tcpx.sh && ./tcpx.sh
 卸载内核版本
-wget -O tcp.sh "https://git.io/coolspeeda" && chmod +x tcp.sh && ./tcp.sh
+wget -O tcp.sh "https://github.com/ylx2016/Linux-NetSpeed/raw/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
 
 关联action自动编译内核
 https://github.com/ylx2016/kernel/
@@ -76,11 +79,14 @@ https://bintray.com/multipath-tcp/mptcp_rpm/mptcp/v0.95.1#files
 https://bintray.com/multipath-tcp/mptcp_deb/mptcp/v0.95.1#files
 
 DD脚本
+https://git.beta.gs/
 https://www.cxthhhhh.com/network-reinstall-system-modify
+
 高科技
 https://github.com/mack-a/v2ray-agent
 https://github.com/phlinhng/v2ray-tcp-tls-web
-https://github.com/johnrosen1/trojan-gfw-script
+https://github.com/johnrosen1/vpstoolbox
+https://github.com/wulabing/Xray_onekey
 
 服务周期
 https://zh.wikipedia.org/zh/Ubuntu
